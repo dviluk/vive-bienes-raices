@@ -11,7 +11,22 @@ class Redes
                 "nombre" => "Facebook",
                 "link" => "#",
                 "icon" => "facebook"
-            ]
+            ],
+            (object) [
+                "nombre" => "Twitter",
+                "link" => "#",
+                "icon" => "twitter"
+            ],
+            (object) [
+                "nombre" => "Whatsapp",
+                "link" => "https://wa.link/9gszsx",
+                "icon" => "whatsapp"
+            ],
+            (object) [
+                "nombre" => "Instagram",
+                "link" => "#",
+                "icon" => "instagram"
+            ],
         ]);
     }
 
