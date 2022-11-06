@@ -6,7 +6,7 @@
                 <div class="agency-benefits">
                     <div class="content">
                         <div class="section-title title-2">
-                            <h2>Tenemos 20 años de experiencia</h2>
+                            <h2>Tenemos 10 años de experiencia</h2>
                         </div>
                         <p>
                             Una de las preguntas mas frecuentes que se formulan en el sector empresarial es; ¿como proteger a mi familia, y negocio?
