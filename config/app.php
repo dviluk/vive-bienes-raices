@@ -7,4 +7,5 @@ return [
     'mail_password' => env('MAIL_PASSWORD'),
     'mail_encryption' => env('MAIL_ENCRYPTION', 'tls'),
     'mail_contact' => env('MAIL_CONTACT'),
+    'mail_sentto' => env('MAIL_SENTTO'),
 ];

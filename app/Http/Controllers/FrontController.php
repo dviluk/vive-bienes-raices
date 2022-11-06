@@ -132,7 +132,7 @@ class FrontController extends Controller
 
             $mail->isHTML(true);
 
-            $mail->addAddress(config('app.mail_contact'), '');
+            $mail->addAddress(config('app.mail_sentto'), '');
 
             $mail->Subject = $subject;
             $mail->msgHTML($message);
