@@ -106,7 +106,7 @@
                                         <div class="contact-text d-flex align-items-center">
                                             <i class="fa fa-globe"></i>
                                             <p>
-                                                <a href="#">contacto@corhdsa.com</a>
+                                                <a href="#">asesoria@viveenvallartabienesraices.com</a>
                                             </p>
                                         </div>
                                     </li>
