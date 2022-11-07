@@ -2,37 +2,77 @@
 @section('title', 'Inicio')
 @section('content')
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-     <ol class="carousel-indicators">
-         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-     </ol>
-     <div class="carousel-inner">
-         <div class="carousel-item active">
-             <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
-             <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)"
-                 class="d-flex justify-content-center align-items-center">
-                 <div class=" animated slideInUp text-center">
+    <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
+            <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)"
+                class="d-flex justify-content-center align-items-center">
+                <div class=" animated slideInUp text-center">
                         <h1 class=" text-light font-weight-bold">“Un lugar para vibrar alto”</h1>
-                     <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
-                 </div>
-             </div>
-         </div>
-         <div class="carousel-item active">
-             <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
-             <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)"
-                 class="d-flex justify-content-center align-items-center">
-                 <div class=" animated slideInUp text-center">
-                        <h1 class=" text-light font-weight-bold">“Un lugar para vibrar alto”</h1>
-                     <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
-                 </div>
-             </div>
-         </div>
-         <div class="carousel-item">
-             <img src="images/hero/About.jpg" class="d-block w-100" alt="...">
-         </div>
-     </div>
+                    <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
+            <div class="hero-slide-item d-flex align-items-center image-bg"
+                style="background-image: url({{url('images/hero/bg.jpg')}})">
+                <div class="hero-bg"></div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="hero-content text-left">
+
+                                <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una
+                                    cita?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/hero/About.jpg" class="d-block w-100" alt="...">
+
+        </div>
+    </div>
+
 </div>
+</div><!-- Hero Section End -->
+<p></p>
+</div>
+<div class="carousel-item">
+    <img src="..." class="d-block w-100" alt="...">
+</div>
+<div class="carousel-item">
+    <img src=images/hero/bg.jpg class="d-block w-100" alt="...">
+    <div class="hero-slide-item d-flex align-items-center image-bg"
+        style="background-image: url({{url('images/hero/bg.jpg')}})">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero-content text-left">
+                        <h1>
+
+                        </h1>
+                        <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+</div>
+
+<p></p>
 <!-- Start Service Style-->
 <div class="section-service">
     <div class="container-fluid plr_-0">
