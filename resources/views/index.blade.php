@@ -18,20 +18,13 @@
                  </div>
              </div>
          </div>
-         <div class="carousel-item">
+         <div class="carousel-item active">
              <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
-             <div class="hero-slide-item d-flex align-items-center image-bg"
-                 style="background-image: url({{url('images/hero/bg.jpg')}})">
-                 <div class="hero-bg"></div>
-                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="hero-content text-left">
-                                 <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una
-                                    cita?</a>
-                             </div>
-                         </div>
-                     </div>
+             <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)"
+                 class="d-flex justify-content-center align-items-center">
+                 <div class=" animated slideInUp text-center">
+                        <h1 class=" text-light font-weight-bold">“Un lugar para vibrar alto”</h1>
+                     <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
                  </div>
              </div>
          </div>
