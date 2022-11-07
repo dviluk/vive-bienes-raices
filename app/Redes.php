@@ -9,7 +9,7 @@ class Redes
         return collect([
             (object) [
                 "nombre" => "Facebook",
-                "link" => "#",
+                "link" => "https://www.facebook.com/viveenvallartabienesraices",
                 "icon" => "facebook"
             ],
             (object) [
@@ -24,7 +24,7 @@ class Redes
             ],
             (object) [
                 "nombre" => "Instagram",
-                "link" => "#",
+                "link" => "https://www.instagram.com/",
                 "icon" => "instagram"
             ],
         ]);
