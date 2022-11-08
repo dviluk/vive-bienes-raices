@@ -6,73 +6,42 @@
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
         <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
     </ol>
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
-            <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)"
-                class="d-flex justify-content-center align-items-center">
+            <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)" class="d-flex justify-content-center align-items-center">
                 <div class=" animated slideInUp text-center">
-                        <h1 class=" text-light font-weight-bold">“Un lugar para vibrar alto”</h1>
+                    <h1 class=" text-light font-weight-bold">“Un lugar para vibrar alto”</h1>
                     <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
                 </div>
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/hero/bg.jpg" class="d-block w-100" alt="...">
-            <div class="hero-slide-item d-flex align-items-center image-bg"
-                style="background-image: url({{url('images/hero/bg.jpg')}})">
-                <div class="hero-bg"></div>
+            <img src="" class="d-block w-100" alt="...">
+            <div class="hero-slide-item d-flex align-items-center image-bg2" style="background-image: url({{url('images/hero/bg2.jpg')}})">
+                <div class="hero-bg2"></div>
                 <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div class="hero-content text-left">
-
-                                <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una
-                                    cita?</a>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
+
         </div>
         <div class="carousel-item">
-            <img src="images/hero/About.jpg" class="d-block w-100" alt="...">
-
-        </div>
-    </div>
-
-</div>
-</div><!-- Hero Section End -->
-<p></p>
-</div>
-<div class="carousel-item">
-    <img src="..." class="d-block w-100" alt="...">
-</div>
-<div class="carousel-item">
-    <img src=images/hero/bg.jpg class="d-block w-100" alt="...">
-    <div class="hero-slide-item d-flex align-items-center image-bg"
-        style="background-image: url({{url('images/hero/bg.jpg')}})">
-        <div class="hero-bg"></div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="hero-content text-left">
-                        <h1>
-
-                        </h1>
-                        <a href="{{route('contact')}}#contact-form-title" class="btn">¿Desea agendar una cita?</a>
-                    </div>
+            <img src="" class="d-block w-100" alt="...">
+            <div class="hero-slide-item d-flex align-items-center image-Contact" style="background-image: url({{url('images/hero/Contact.jpg')}})">
+                <div class="hero-Contact"></div>
+                <div class="container">
                 </div>
             </div>
+
         </div>
     </div>
+    
 </div>
-</div>
-
-</div>
-
-<p></p>
+<!-- Hero Section End -->
 <!-- Start Service Style-->
 <div class="section-service">
     <div class="container-fluid plr_-0">
@@ -88,14 +57,14 @@
                         <div class="content">
                             <!--Webcam Security-->
                             <h4>Verea Residencial</h4>
-                            <p>Vivir entre jardines y 
-caminos, VEREA te invita a 
-dar un respiro y a convivir 
-con tu entorno. En cada 
-espacio diseñado creamos 
-una historia que te inspira 
-a cumplir tus metas y vivir 
-tus sueños.</p>
+                            <p>Vivir entre jardines y
+                                caminos, VEREA te invita a
+                                dar un respiro y a convivir
+                                con tu entorno. En cada
+                                espacio diseñado creamos
+                                una historia que te inspira
+                                a cumplir tus metas y vivir
+                                tus sueños.</p>
                         </div>
                     </div>
                 </div>
@@ -111,11 +80,11 @@ tus sueños.</p>
                         </div>
                         <div class="content">
                             <h4>Senya Residencial</h4>
-                            <p>Un desarrollo de espacios vanguardistas, 
-de convivencia social y recreativos.
-En sus áreas comun engloba las necesidades de cada uno de sus hábitates (sin 
-importar genero y edad), espacios donde 
-pueden expresarse de forma artística, deportiva y/o cultural </p>
+                            <p>Un desarrollo de espacios vanguardistas,
+                                de convivencia social y recreativos.
+                                En sus áreas comun engloba las necesidades de cada uno de sus hábitates (sin
+                                importar genero y edad), espacios donde
+                                pueden expresarse de forma artística, deportiva y/o cultural </p>
                         </div>
                     </div>
                 </div>
@@ -186,8 +155,7 @@ pueden expresarse de forma artística, deportiva y/o cultural </p>
                         <h4><a href="{{route('service', ['slug' => $servicio->slug])}}">{{$servicio->titulo}}</a></h4>
                         <p>{!! substr($servicio->descripcion, 0, 150) !!}...</p>
                         <div class="post-btn">
-                            <a class="readmore-btn btn btn-circle"
-                                href="{{route('service', ['slug' => $servicio->slug])}}">LEER MAS</a>
+                            <a class="readmore-btn btn btn-circle" href="{{route('service', ['slug' => $servicio->slug])}}">LEER MAS</a>
                         </div>
                     </div>
                 </div>
