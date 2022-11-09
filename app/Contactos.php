@@ -8,10 +8,10 @@ class Contactos
     {
         return collect([
             (object) [
-                'calle' => 'pendiente',
-                'colonia' => 'pendiente',
+                'calle' => '',
+                'colonia' => '',
                 'telefonos' => ['(322) 24 41 516'],
-                'emails' => ['miguenw@gmail.com'],
+                'emails' => ['asesoria@viveenvallartabienesraices.com'],
                 'estado' => 'Puerto Vallarta, Jalisco.',
             ],
         ]);

@@ -32,14 +32,7 @@
                     <!-- Start Single Post -->
                     <div class="section-title text-center" style="font-size: 18px">
                         <h2 id="vision">Visión</h2>
-                        <p>Queremos integrarnos en cada célula empresarial y familiar, velar su sueño y tranquilidad
-                            de
-                            toda persona, así como proteger su negocio.</p>
-                        <p>Queremos ser la única empresa de máximo nivel que contenga personal estratega
-                            certificado,
-                            que nos permita demostrar que somos capaces de vigilar y proteger con ahínco lo
-                            encomendado
-                            por nuestros clientes.</p>
+                        <p>Convertirnos en la primera opción de compra de inmuebles e inversión en el medio de desarrollo de proyectos y construcción, asegurando los mejores rendimientos para nuestros clientes.</p>
                     </div>
                     <!-- End Single Post -->
                 </div>
@@ -48,14 +41,7 @@
                     <!-- Start Single Post -->
                     <div class="section-title text-center" style="font-size: 18px">
                         <h2 id="mision">Misión</h2>
-                        <p>Somos una Empresa Estratega y Audaz, conocedores del cómo y cuando actuar, capaces de
-                            detectar, enfrentar y resolver problemas aun inesperados por lo que permanecemos siempre
-                            alerta, es por esto que nuestro personal al ritmo del reloj y el tiempo está siempre en
-                            marcha, demostrando así nuestra vocación al servicio trascendental, somos comprometidos
-                            a
-                            proteger y salvaguardar a nuestros clientes y sus bienes, por lo que sutilmente
-                            permanecemos
-                            a su lado.</p>
+                        <p>Buscamos como prioridad el bienestar integral de nuestros clientes, colaboradores e inversionistas, creando espacios innovadores, garantizando plusvalía.</p>
                     </div>
                     <!-- End Single Post -->
                 </div>
@@ -105,11 +91,8 @@
                 <div class="section-title text-center">
                     <h2>Visión</h2>
                     <div style="font-size: 18px">
-                        <p>Queremos integrarnos en cada célula empresarial y familiar, velar su sueño y tranquilidad de
-                            toda persona, así como proteger su negocio.</p>
-                        <p>Queremos ser la única empresa de máximo nivel que contenga personal estratega certificado,
-                            que nos permita demostrar que somos capaces de vigilar y proteger con ahínco lo encomendado
-                            por nuestros clientes.</p>
+                        <p>Convertirnos en la primera opción de compra de inmuebles e inversión en el medio de desarrollo de proyectos y construcción, asegurando los mejores rendimientos para nuestros clientes.</p>
+                        
                     </div>
                 </div>
             </div>
@@ -124,12 +107,7 @@
                 <div class="section-title text-center">
                     <h2>Misión</h2>
                     <div style="font-size: 18px">
-                        <p>Somos una Empresa Estratega y Audaz, conocedores del cómo y cuando actuar, capaces de
-                            detectar, enfrentar y resolver problemas aun inesperados por lo que permanecemos siempre
-                            alerta, es por esto que nuestro personal al ritmo del reloj y el tiempo está siempre en
-                            marcha, demostrando así nuestra vocación al servicio trascendental, somos comprometidos a
-                            proteger y salvaguardar a nuestros clientes y sus bienes, por lo que sutilmente permanecemos
-                            a su lado.</p>
+                        <p>Buscamos como prioridad el bienestar integral de nuestros clientes, colaboradores e inversionistas, creando espacios innovadores, garantizando plusvalía.</p>
                     </div>
                 </div>
             </div>
