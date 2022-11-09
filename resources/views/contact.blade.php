@@ -1,12 +1,9 @@
 @extends('layouts.app')
 @section('title', 'Contacto')
 @section('content')
-public static function all()
-    {
-        return self::_redes();
 <!-- Breadcrumb -->
 <img src="images/contact/contact-bg.png" class="d-block w-90" alt="...">
-            <div style="position: absolute; width: 100%; height: 100%; top: 0;" class="d-flex justify-content-center align-items-center">
+            <div style="position: absolute; width: 100%; height: 100%; top: 0; background-color: rgba(0, 0, 0, 0.2)" class="d-flex justify-content-center align-items-center">
     <div class="container">
         <div class="row breadcrumb">
             <div class="col">
@@ -23,3 +20,109 @@ public static function all()
         </div>
     </div>
 </div>
+<!--// Breadcrumb -->
+
+<!-- Start Google-map Area -->
+<div class="google-map">
+<button class="enlace" role="link" onclick="window.location='http://es.stackoverflow.com'">¿Soy un botón o un enlace?</button>
+<a class="enlace" href="http://es.stackoverflow.com">¿Soy un botón o un enlace?</a>
+</div>
+<!-- End google-map Area -->
+
+<div class="contact-form-area">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-5 col-md-7 col-12">
+                <div class="form_wrapper form-style-1">
+                    <div class="contact-title text-center">
+                        <div class="title-3">
+                            <h3 id="contact-form-title">Envianos un mensaje</h3>
+                        </div>
+                    </div>
+                    <div class="form-inner-box-warp">
+                        <form id="contact-form" method="POST" action="{{ route('contact.post') }}">
+                            <div class="row">
+                                <div class="col-lg-12 mb-30">
+                                    <input name="name" type="text" placeholder="Nombre*" required />
+                                </div>
+                                <div class="col-lg-12  mb-30">
+                                    <input name="email" type="email" placeholder="Correo*" required />
+                                </div>
+                                <div class="col-lg-12  mb-30">
+                                    <input name="subject" type="text" placeholder="Asunto*" required />
+                                </div>
+                                <div class="col-lg-12  mb-30">
+                                    <textarea name="message" placeholder="Mensaje*" required></textarea>
+                                </div>
+                                <div class="col-lg-12">
+                                    <button type="submit" class="submit-btn default-btn">
+                                        Enviar
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        <p class="form-messege" style="white-space: pre-line"></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-7 offset-lg-0 col-md-5">
+                <div class="contact-info-wrapper">
+                    <div class="contact-title text-center">
+                        <div class="title-3">
+                            <h3>Contactanos</h3>
+                        </div>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="row">
+                            @foreach ($contactos as $contacto)
+                            <div class="col-lg-4 col-md-12 col-sm-6">
+                                <ul>
+                                    <li>
+                                        <div class="contact-text d-flex align-items-center">
+                                            <i class="fa fa-map-marker"></i>
+                                            <p>
+                                                <strong>{{$contacto->estado}}</strong><br />
+                                                {{$contacto->calle}}<br />
+                                                {{$contacto->colonia}}<br />
+                                            </p>
+                                        </div>
+                                    </li>
+                                    @if (count($contacto->telefonos) > 0)
+                                    <li>
+                                        <div class="contact-text d-flex align-items-center">
+                                            <i class="fa fa-phone"></i>
+                                            <p>
+                                                @foreach ($contacto->telefonos as $telefono)
+                                                <a href="tel:{{str_replace(" ", "", $telefono)}}">{{$telefono}}</a>
+                                                @endforeach
+                                            </p>
+                                        </div>
+                                    </li>
+                                    @endif
+                                    @if (count($contacto->emails) > 0)
+                                    <li>
+                                        <div class="contact-text d-flex align-items-center">
+                                            <i class="fa fa-globe"></i>
+                                            <p>
+                                                <a href="#">asesoria@viveenvallartabienesraices.com</a>
+                                            </p>
+                                        </div>
+                                    </li>
+                                    @endif
+                                </ul>
+                            </div>
+                            @endforeach
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
+
+@section('js-before')
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCMpS5O_sDhWUyOiXoC5oe72ghWtYsl_ZU"></script>
+@endsection
